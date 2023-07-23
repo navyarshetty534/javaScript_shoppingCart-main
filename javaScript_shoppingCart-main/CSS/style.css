@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;1,300&display=swap');
+
+* {
+  box-sizing: border-box;
+  color: rgb(96, 94, 214);
+  margin: 0;
+  padding: 0;
+}
+
+.notification {
+  align-self: center;
+  font-size: 20px;
+  color: #0a0202;
+  padding: 15px 26px;
+  position: relative;
+  display: inline-flex;
+  border-radius: 2px;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  padding: 0px;
+}
+
+header {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+
+.products-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  border: rgb(30, 0, 128);
+  gap: 20px;
+}
+
+a {
+
+  font-weight: bold;
+
+}
+
+.product-item {
+  text-align: center;
+  padding: 10px;
+  background-color: #aaeefa;
+  border: 2px solid #ddd;
+  border-radius: 1px;
+  flex-basis: 200px;
+  flex-grow: 1;
+}
+
+.card {
+  display: flex;
+  position: relative;
+  height: 100%;
+  align-items: baseline;
+  border-color: rgb(0, 157, 255);
+}
+
+
+.product-item img {
+  width: 50%;
+  height: 50%;
+  object-fit: contain;
+}
+
+.cart-container {
+  margin-top: 30px;
+  padding: 10px;
+  background-color: #f6f8f8;
+  border: 1px solid #adadad;
+  border-radius: 4px;
+}
